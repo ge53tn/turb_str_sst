@@ -77,8 +77,10 @@ relaxationFactors
     equations
     {
         U           0.8; // 0.9 is more stable but 0.95 more convergent
-	    p 	        0.7; 
+	p 	        0.7; 
         C           1.0; 
+	k           0.85; // Turbulence kinetic energy (suggested: 0.7 - 0.9),new NT
+        omega       0.85; // Turbulence dissipation rate (suggested: 0.7 - 0.9),new NT
        // ".*"            0.8; // 0.9 is more stable but 0.95 more convergent
     }
 }
