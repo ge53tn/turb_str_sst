@@ -20,7 +20,7 @@ simulationType RAS;
 RAS
 {
     // Mandatory entries
-    RASModel        kOmega;
+    RASModel        kOmegaSST;
 
     // Optional entries
     turbulence      on;
