@@ -30,7 +30,7 @@ vertices		//list of vertices defining the geometry (x y z)
 
 blocks			//defining the block which the geometry is made out of
 (
-    hex (0 1 2 3 4 5 6 7) (390 45 60) simpleGrading (1 1 1)  	
+    hex (0 1 2 3 4 5 6 7) (260 30 40) simpleGrading (1 1 1)  	
 //this means that the only block in the geometry is defined by vertices (0 1 2 ...), there are 100, 10 
 //and 1 cells in the x, y, and z direction and that in each direction all the cells have the same length 
 );
